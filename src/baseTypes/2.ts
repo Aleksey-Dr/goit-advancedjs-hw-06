@@ -1,5 +1,15 @@
-let anything = -20;
+let anything: any = -20;
 anything = 'Text';
+
+let str: string;
+str = anything;
+
 anything = {};
 
-export {};
+let obj: object = anything;
+
+export {
+    str,
+    obj,
+    anything
+};
