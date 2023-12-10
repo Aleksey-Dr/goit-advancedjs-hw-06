@@ -34,6 +34,10 @@ import { myGender } from './baseTypes/8';
 
 import { page1, page2 } from './baseTypes/9';
 
+// ========== GENERIC
+import { getPromise } from './generic/1';
+
+console.log('========== Base Types');
 console.log('Task 1');
 console.log(age);
 console.log(name);
@@ -71,3 +75,7 @@ console.log(myGender);
 console.log('Task 9');
 console.log(page1);
 console.log(page2);
+
+console.log('========== Generic');
+console.log('Task 1');
+console.log(getPromise());
